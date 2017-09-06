@@ -1,0 +1,57 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Untitled Document</title>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+</head>
+<body>
+<table border="1">
+  <tr>
+    <td colspan="2">一起看看小王子留給我們與人生的六個關係練習</td>
+  </tr>
+  <tr>
+    <td rowspan="2">與自己的關係</td>
+    <td>每個人都有自己的孤單課題</td>
+  </tr>
+  <tr>
+    <td>你不需要變成你不喜歡的大人</td>
+  </tr>
+  <tr>
+    <td rowspan="2">與愛人的關係</td>
+    <td>從心甘情願豢養與被豢養開始</td>
+  </tr>
+  <tr>
+    <td>因為他是你的玫瑰</td>
+  </tr>
+  <tr>
+    <td rowspan="2">與世界的關係</td>
+    <td>用「心」去尋覓你笑著的理由</td>
+  </tr>
+  <tr>
+    <td>分離的時候，學會道別</td>
+  </tr>
+</table>
+
+
+<script>
+    
+$(document).ready(function(){
+    $("td").mouseover(function(){
+    $(this).css("background","lightblue");});
+    
+     $("td").mouseout(function(){
+    $(this).css("background","white");});
+    
+   $("[rowspan='2']").click(function(){$(this).css("background","lightgreen");});
+});
+    
+    
+    
+    
+</script>
+
+
+
+</body>
+</html>

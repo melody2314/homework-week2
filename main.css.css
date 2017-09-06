@@ -1,0 +1,22 @@
+.person{
+    border:10px solid transparent;
+    width:80%;
+}
+.person:hover{
+    border-color: rgba(128, 128, 128, 0.63);
+}
+.carousel-inner img{
+/*    height:500px !important;*/
+    width:100%;
+}
+.bg-1{background:black}
+.bg-1 h3, .bg-1 p{color: white;}
+.bg-1 h3{padding-top: 40px;}
+.bg-1 em{color:white;}
+.caption p{color:black;}
+.btn{background:#464242; color:white; border: 1px solid black;}
+.btn:hover{background:white;color:black;}
+.bg-2 p{padding-top:40px;font-size: 30px;font-family: sans-serif;}
+.col-xs-4{padding:20px;}
+.col-xs-12{padding-top:20px;}
+.col-md-12{padding-top:20px;}
